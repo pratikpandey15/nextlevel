@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
+#include <string>
+#include <cstdio>   // for remove & rename
+
 using namespace std;
 
 class Student {
@@ -12,16 +14,18 @@ public:
     void input() {
         cout << "Enter Roll Number: ";
         cin >> roll;
-        cout << "Enter Name: ";
         cin.ignore();
+
+        cout << "Enter Name: ";
         getline(cin, name);
+
         cout << "Enter Marks: ";
         cin >> marks;
     }
 
-    void display() {
-        cout << "Roll: " << roll 
-             << " | Name: " << name 
+    void display() const {
+        cout << "Roll: " << roll
+             << " | Name: " << name
              << " | Marks: " << marks << endl;
     }
 };
@@ -31,33 +35,62 @@ void addStudent() {
     s.input();
 
     ofstream file("students.txt", ios::app);
-    file << s.roll << " " << s.name << " " << s.marks << endl;
-    file.close();
+    if (!file) {
+        cout << "Error opening file!\n";
+        return;
+    }
 
+    file << s.roll << endl;
+    file << s.name << endl;
+    file << s.marks << endl;
+
+    file.close();
     cout << "Student Added Successfully!\n";
 }
 
 void displayStudents() {
     ifstream file("students.txt");
-    Student s;
+    if (!file) {
+        cout << "No records found!\n";
+        return;
+    }
 
-    while (file >> s.roll >> s.name >> s.marks) {
+    Student s;
+    cout << "\n---- Student Records ----\n";
+
+    while (file >> s.roll) {
+        file.ignore();
+        getline(file, s.name);
+        file >> s.marks;
+        file.ignore();
+
         s.display();
     }
+
     file.close();
 }
 
 void searchStudent() {
-    int roll;
+    int searchRoll;
     cout << "Enter Roll Number to Search: ";
-    cin >> roll;
+    cin >> searchRoll;
 
     ifstream file("students.txt");
+    if (!file) {
+        cout << "No records found!\n";
+        return;
+    }
+
     Student s;
     bool found = false;
 
-    while (file >> s.roll >> s.name >> s.marks) {
-        if (s.roll == roll) {
+    while (file >> s.roll) {
+        file.ignore();
+        getline(file, s.name);
+        file >> s.marks;
+        file.ignore();
+
+        if (s.roll == searchRoll) {
             s.display();
             found = true;
             break;
@@ -71,19 +104,31 @@ void searchStudent() {
 }
 
 void deleteStudent() {
-    int roll;
+    int deleteRoll;
     cout << "Enter Roll Number to Delete: ";
-    cin >> roll;
+    cin >> deleteRoll;
 
     ifstream file("students.txt");
     ofstream temp("temp.txt");
 
+    if (!file || !temp) {
+        cout << "Error handling files!\n";
+        return;
+    }
+
     Student s;
     bool found = false;
 
-    while (file >> s.roll >> s.name >> s.marks) {
-        if (s.roll != roll) {
-            temp << s.roll << " " << s.name << " " << s.marks << endl;
+    while (file >> s.roll) {
+        file.ignore();
+        getline(file, s.name);
+        file >> s.marks;
+        file.ignore();
+
+        if (s.roll != deleteRoll) {
+            temp << s.roll << endl;
+            temp << s.name << endl;
+            temp << s.marks << endl;
         } else {
             found = true;
         }
@@ -122,6 +167,7 @@ int main() {
             case 5: cout << "Exiting...\n"; break;
             default: cout << "Invalid Choice!\n";
         }
+
     } while (choice != 5);
 
     return 0;
