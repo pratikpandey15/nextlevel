@@ -1,36 +1,55 @@
 <h1 align="center">Hi, I'm Pratik Pandey</h1>
-<h3 align="center">Electronics & Computer Science Undergraduate </h3>
+
+<h3 align="center">
+Electronics & Computer Science Undergraduate
+</h3>
+
+<p align="center">
+Interested in Hardware, Software Development, Digital Design & VLSI
+</p>
 
 ---
 
-##  About Me
+## 👨‍💻 About Me
 
-I am an undergraduate Engineering student specializing in Electronics and Computer Science, with a strong passion for semiconductor technology, chip design, and core electronics. I am deeply interested in understanding how systems work — from transistors and circuits to software applications.
+I am an Electronics & Computer Science undergraduate with an interest in both hardware and software development.
 
-My goal is to grow as a well-rounded engineer by combining strong hardware fundamentals with software development skills. I continuously strive to improve my knowledge in VLSI, semiconductor devices, problem-solving, and modern programming practices.
+I enjoy understanding how computing systems work — from semiconductor devices and digital circuits to programming and software applications. I am particularly interested in building a strong foundation across electronics, digital design, and computer science.
+
+Currently, I am strengthening my knowledge in VLSI and digital electronics while developing my programming skills through practical projects.
+
+My goal is to become a well-rounded engineer who can understand and build solutions across both hardware and software.
 
 ---
 
-##  Currently Learning & Building Expertise In
+## 🧠 Currently Learning & Building Expertise In
 
 <table align="center">
 <tr>
 <td width="50%">
 
-### 🔌 Electronics Focus
-- Semiconductor Devices  
-- VLSI Design Fundamentals  
-- Analog & Digital Circuits  
-- Chip Architecture Basics  
+### 🔌 Electronics & Hardware
+
+- Semiconductor Devices
+- Digital Electronics
+- Analog Circuits
+- VLSI & Digital Design
+- Verilog / RTL Design
+- Computer Organization
+- Microprocessors & Microcontrollers
 
 </td>
+
 <td width="50%">
 
-### 💻 Computer Science Focus
-- Data Structures & Algorithms  
-- Object-Oriented Programming (C++)  
-- Problem Solving  
-- Core Programming Concepts  
+### 💻 Computer Science & Software
+
+- C++
+- HTML & CSS
+- Python
+- Data Structures & Algorithms
+- Git & GitHub
+- Software Development
 
 </td>
 </tr>
@@ -38,27 +57,62 @@ My goal is to grow as a well-rounded engineer by combining strong hardware funda
 
 ---
 
-## 🌐 Connect With Me
+## 🚀 Projects
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/pratikpandey15)
+### 🔹 8-Bit ALU — Verilog
+An 8-bit Arithmetic Logic Unit designed using Verilog, covering arithmetic and logical operations with simulation and verification.
+
+### 🔹 Student Management System — C++
+A C++ based student management system implementing CRUD operations, OOP concepts and file handling.
+
+### 🔹 MOSFET Amplifier Simulation — Python
+A Python-based electronics simulation project focused on MOSFET amplifier behavior, calculations and graphical analysis.
 
 ---
 
-## 💻 Tech Stack
+## 🛠️ Tech Stack
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+### Programming & Development
+
+![C++](https://img.shields.io/badge/C%2B%2B-0F4C75?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0F4C75?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-0F4C75?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-0F4C75?style=for-the-badge&logo=css3&logoColor=white)
+
+### Hardware & Digital Design
+
+![Verilog](https://img.shields.io/badge/Verilog-0077B6?style=for-the-badge&logoColor=white)
+![VLSI](https://img.shields.io/badge/VLSI-0077B6?style=for-the-badge&logoColor=white)
+
+### Tools
+
+![Git](https://img.shields.io/badge/Git-023047?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-023047?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
 ## 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=pratikpandey15&theme=tokyonight&show_icons=true)
-![](https://github-readme-streak-stats.herokuapp.com/?user=pratikpandey15&theme=tokyonight)
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=pratikpandey15&show_icons=true&theme=transparent&title_color=00B4D8&icon_color=00B4D8&text_color=8ECAE6&border_color=0077B6" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=pratikpandey15&theme=transparent&ring=00B4D8&fire=00B4D8&currStreakLabel=00B4D8&sideLabels=8ECAE6&dates=8ECAE6&border=0077B6" />
+
+</p>
 
 ---
 
-⭐ *“Focused on mastering Semiconductor & VLSI while strengthening my software foundation.”*
+## 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://linkedin.com/in/pratikpandey15">
+<img src="https://img.shields.io/badge/LinkedIn-0077B6?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/pratikpandey15">
+<img src="https://img.shields.io/badge/GitHub-023047?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</p>
