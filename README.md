@@ -1,31 +1,34 @@
-<h1 align="center">Pratik Pandey</h1>
+<h1 align="center" style="color:#e6f7ff;">Pratik Pandey</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Electronics+%26+Computer+Science+Student;Digital+Design+%26+VLSI+Enthusiast;Software+Developer;Hardware+%2B+Software+Builder&center=true&width=700&height=100&color=00b4d8&vCenter=true" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Electronics+%26+Computer+Science+Student;Digital+Design+%26+VLSI+Enthusiast;Software+Developer;Hardware+%2B+Software+Builder&center=true&width=900&height=100&color=00b4d8&vCenter=true" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Electronics%20%7C%20VLSI%20%7C%20Embedded%20Systems-0F4C75?style=for-the-badge" alt="Focus Badge" />
-  <img src="https://img.shields.io/badge/Interests-Software%20Development%20%7C%20Digital%20Design-00B4D8?style=for-the-badge" alt="Interest Badge" />
-  <img src="https://img.shields.io/badge/Open%20to-Collabs%20%26%20Opportunities-023047?style=for-the-badge" alt="Open to work badge" />
+  <img src="https://img.shields.io/badge/Focus-Electronics%20%7C%20VLSI%20%7C%20Embedded-0F4C75?style=for-the-badge" alt="Focus Badge" />
+  <img src="https://img.shields.io/badge/Interests-Software%20%7C%20Digital%20Design-00B4D8?style=for-the-badge" alt="Interests Badge" />
+  <img src="https://img.shields.io/badge/Open%20to-Collabs%20%26%20Projects-023047?style=for-the-badge" alt="Open to work badge" />
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-I am an Electronics and Computer Science undergraduate passionate about building solutions at the intersection of hardware and software. My interests lie in digital systems, VLSI, embedded design, and software engineering, with a strong focus on understanding how systems work from the transistor level to application-level development.
+I’m an Electronics and Computer Science undergraduate who enjoys exploring the full spectrum of technology — from digital logic and semiconductors to software systems and product thinking.
 
-I enjoy learning by building — whether it is designing digital logic, simulating electronic behavior, or writing efficient software that solves real problems. My goal is to grow into an engineer who can bridge the gap between physical computing systems and modern software.
+My work is driven by curiosity: understanding how devices function, how systems communicate, and how ideas can be translated into real-world solutions with code and engineering.
+
+I’m especially interested in VLSI, embedded systems, digital design, and software development, and I’m building a strong foundation in both hardware and software to become a well-rounded engineer.
 
 ---
 
-## 🔭 What I’m Building
+## 🔥 Highlights
 
-- Strong fundamentals in digital electronics, semiconductor concepts, and computer organization
-- Practical experience in Verilog-based digital design and hardware modeling
-- Programming skills in C++, Python, and web technologies for problem solving and software development
-- A growing portfolio of projects combining logic, simulation, and engineering thinking
+<p align="center">
+  <img src="https://img.shields.io/badge/Projects-3%2B-0F4C75?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Hardware%20%2B%20Software-00B4D8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Learning-VLSI%20%7C%20Digital%20Design-023047?style=for-the-badge" />
+</p>
 
 ---
 
@@ -64,37 +67,23 @@ I enjoy learning by building — whether it is designing digital logic, simulati
 
 ---
 
-## 🚀 Featured Projects
-
-### 1. 8-Bit ALU — Verilog
-A digital design project implementing an 8-bit arithmetic logic unit using Verilog, covering essential arithmetic and logic operations with functional verification.
-
-### 2. Student Management System — C++
-A console-based student management system built with C++, using OOP principles, file handling, and CRUD-style operations to manage records efficiently.
-
-### 3. MOSFET Amplifier Simulation — Python
-A Python-based electronics simulation project focused on MOSFET amplifier analysis, calculations, and graphical behavior interpretation.
-
----
 
 ## 🛠️ Tech Stack
 
-### Programming Languages
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-0F4C75?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-0F4C75?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/HTML5-0F4C75?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-0F4C75?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Verilog-0077B6?style=for-the-badge&logoColor=white" alt="Verilog" />
+  <img src="https://img.shields.io/badge/VLSI-0077B6?style=for-the-badge&logoColor=white" alt="VLSI" />
+  <img src="https://img.shields.io/badge/Git-023047?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-023047?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
 
-![C++](https://img.shields.io/badge/C%2B%2B-0F4C75?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-0F4C75?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-0F4C75?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-0F4C75?style=for-the-badge&logo=css3&logoColor=white)
-
-### Hardware & Design
-
-![Verilog](https://img.shields.io/badge/Verilog-0077B6?style=for-the-badge&logoColor=white)
-![VLSI](https://img.shields.io/badge/VLSI-0077B6?style=for-the-badge&logoColor=white)
-
-### Tools
-
-![Git](https://img.shields.io/badge/Git-023047?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-023047?style=for-the-badge&logo=github&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Background-Dark%20Blue-0B1020?style=for-the-badge" alt="Dark blue background" />
+</p>
 
 ---
 
@@ -118,6 +107,3 @@ A Python-based electronics simulation project focused on MOSFET amplifier analys
   </a>
 </p>
 
-<p align="center">
-  <i>Building thoughtful solutions through electronics, logic, and software.</i>
-</p>
