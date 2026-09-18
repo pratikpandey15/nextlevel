@@ -96,7 +96,7 @@ I’m especially interested in VLSI, embedded systems, digital design, and softw
 
 ---
 
-## 🌐 Connect With Me
+## 🌐 Connect
 
 <p align="center">
   <a href="https://linkedin.com/in/pratikpandey15" target="_blank">
